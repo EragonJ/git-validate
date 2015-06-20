@@ -239,6 +239,7 @@ run_script() {
         echo "$output"
     else
         echo "passed!"
+        echo "$output"
     fi
     return $result
 }
